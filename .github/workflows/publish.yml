@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        package: ['@cyrcime123/package1', '@cyrcime123/package2']  # 根据实际情况更新包名列表
+        package: ['package1', 'package2']  # 根据实际情况更新包名列表
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
