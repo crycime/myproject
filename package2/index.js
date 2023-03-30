@@ -1,4 +1,4 @@
 // package2/index.js
 module.exports = function() {
-    console.log('This is Package 2.');
+    console.log('This is Package V2.');
 };
